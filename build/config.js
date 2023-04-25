@@ -35,6 +35,7 @@ const aliases = {
   core: resolveVue('core'),
   shared: resolveVue('shared'),
   sfc: resolveVue('sfc'),
+  v3: resolveVue('v3'),
   //he: path.resolve(__dirname, 'node_modules', 'he', 'he')
   he: path.resolve(__dirname, '..', 'platform/nativescript/util/entity-decoder')
 }
@@ -71,7 +72,7 @@ const genConfig = (name) => {
     output: {
       intro: opts.intro,
       file: opts.dest,
-      format: opts.format || 'cjs',
+      format: opts.format || 'esm',
       banner: opts.banner,
       name: opts.moduleName,
       exports: 'auto'

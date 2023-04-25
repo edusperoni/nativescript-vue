@@ -81,7 +81,7 @@
     "rollup-plugin-resolve-aliases": "0.3.0",
     "semver": "7.3.7",
     "set-value": "4.1.0",
-    "vue": "2.6.14"
+    "vue": "2.7.14"
   },
   "jest": {
     "verbose": true,

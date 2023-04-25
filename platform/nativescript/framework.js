@@ -33,4 +33,6 @@ global.__onLiveSyncCore = () => {
 // fail from a Typescript file
 // Vue.default = Vue
 
+export * from 'v3'
+
 export default Vue
